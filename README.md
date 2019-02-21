@@ -1,5 +1,7 @@
 # The Rabbit68 Keyboard
 
+![](images/rabbit68-rev1-rendered-bg.jpg)
+
 ## Layout
 
 http://www.keyboard-layout-editor.com/#/gists/c885816c6b763c657e40474b015e362b
