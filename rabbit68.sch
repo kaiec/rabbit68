@@ -1,0 +1,2002 @@
+EESchema Schematic File Version 4
+LIBS:rabbit68-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Rabbit68 Keyboard"
+Date "2019-02-20"
+Rev "A"
+Comp "WISS Lab"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5C673E92
+P 1100 1100
+F 0 "SW1" H 1100 1385 50  0000 C CNN
+F 1 "SW_Push" H 1100 1294 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 1100 1300 50  0001 C CNN
+F 3 "" H 1100 1300 50  0001 C CNN
+	1    1100 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D1
+U 1 1 5C67D24E
+P 1250 1300
+F 0 "D1" H 1250 1084 50  0000 C CNN
+F 1 "1N4148" H 1250 1175 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1250 1125 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 1250 1300 50  0001 C CNN
+	1    1250 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5C6805C7
+P 1750 1100
+F 0 "SW2" H 1750 1385 50  0000 C CNN
+F 1 "SW_Push" H 1750 1294 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 1750 1300 50  0001 C CNN
+F 3 "" H 1750 1300 50  0001 C CNN
+	1    1750 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D2
+U 1 1 5C6805CE
+P 1900 1300
+F 0 "D2" H 1900 1084 50  0000 C CNN
+F 1 "1N4148" H 1900 1175 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1900 1125 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 1900 1300 50  0001 C CNN
+	1    1900 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5C68061F
+P 2400 1100
+F 0 "SW3" H 2400 1385 50  0000 C CNN
+F 1 "SW_Push" H 2400 1294 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 2400 1300 50  0001 C CNN
+F 3 "" H 2400 1300 50  0001 C CNN
+	1    2400 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D3
+U 1 1 5C680626
+P 2550 1300
+F 0 "D3" H 2550 1084 50  0000 C CNN
+F 1 "1N4148" H 2550 1175 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2550 1125 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 2550 1300 50  0001 C CNN
+	1    2550 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5C680673
+P 3050 1100
+F 0 "SW4" H 3050 1385 50  0000 C CNN
+F 1 "SW_Push" H 3050 1294 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 3050 1300 50  0001 C CNN
+F 3 "" H 3050 1300 50  0001 C CNN
+	1    3050 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D4
+U 1 1 5C68067A
+P 3200 1300
+F 0 "D4" H 3200 1084 50  0000 C CNN
+F 1 "1N4148" H 3200 1175 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3200 1125 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 3200 1300 50  0001 C CNN
+	1    3200 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW5
+U 1 1 5C6809A4
+P 3700 1100
+F 0 "SW5" H 3700 1385 50  0000 C CNN
+F 1 "SW_Push" H 3700 1294 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 3700 1300 50  0001 C CNN
+F 3 "" H 3700 1300 50  0001 C CNN
+	1    3700 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D5
+U 1 1 5C6809AB
+P 3850 1300
+F 0 "D5" H 3850 1084 50  0000 C CNN
+F 1 "1N4148" H 3850 1175 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3850 1125 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 3850 1300 50  0001 C CNN
+	1    3850 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW6
+U 1 1 5C6809B2
+P 4350 1100
+F 0 "SW6" H 4350 1385 50  0000 C CNN
+F 1 "SW_Push" H 4350 1294 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 4350 1300 50  0001 C CNN
+F 3 "" H 4350 1300 50  0001 C CNN
+	1    4350 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D6
+U 1 1 5C6809B9
+P 4500 1300
+F 0 "D6" H 4500 1084 50  0000 C CNN
+F 1 "1N4148" H 4500 1175 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4500 1125 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4500 1300 50  0001 C CNN
+	1    4500 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW7
+U 1 1 5C6809C0
+P 5000 1100
+F 0 "SW7" H 5000 1385 50  0000 C CNN
+F 1 "SW_Push" H 5000 1294 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 5000 1300 50  0001 C CNN
+F 3 "" H 5000 1300 50  0001 C CNN
+	1    5000 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D7
+U 1 1 5C6809C7
+P 5150 1300
+F 0 "D7" H 5150 1084 50  0000 C CNN
+F 1 "1N4148" H 5150 1175 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5150 1125 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5150 1300 50  0001 C CNN
+	1    5150 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW8
+U 1 1 5C6809CE
+P 5650 1100
+F 0 "SW8" H 5650 1385 50  0000 C CNN
+F 1 "SW_Push" H 5650 1294 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 5650 1300 50  0001 C CNN
+F 3 "" H 5650 1300 50  0001 C CNN
+	1    5650 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D8
+U 1 1 5C6809D5
+P 5800 1300
+F 0 "D8" H 5800 1084 50  0000 C CNN
+F 1 "1N4148" H 5800 1175 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5800 1125 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5800 1300 50  0001 C CNN
+	1    5800 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW9
+U 1 1 5C681190
+P 6300 1100
+F 0 "SW9" H 6300 1385 50  0000 C CNN
+F 1 "SW_Push" H 6300 1294 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6300 1300 50  0001 C CNN
+F 3 "" H 6300 1300 50  0001 C CNN
+	1    6300 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D9
+U 1 1 5C681197
+P 6450 1300
+F 0 "D9" H 6450 1084 50  0000 C CNN
+F 1 "1N4148" H 6450 1175 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6450 1125 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6450 1300 50  0001 C CNN
+	1    6450 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW10
+U 1 1 5C68119E
+P 6950 1100
+F 0 "SW10" H 6950 1385 50  0000 C CNN
+F 1 "SW_Push" H 6950 1294 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6950 1300 50  0001 C CNN
+F 3 "" H 6950 1300 50  0001 C CNN
+	1    6950 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D10
+U 1 1 5C6811A5
+P 7100 1300
+F 0 "D10" H 7100 1084 50  0000 C CNN
+F 1 "1N4148" H 7100 1175 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7100 1125 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7100 1300 50  0001 C CNN
+	1    7100 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW11
+U 1 1 5C6811AC
+P 7600 1100
+F 0 "SW11" H 7600 1385 50  0000 C CNN
+F 1 "SW_Push" H 7600 1294 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7600 1300 50  0001 C CNN
+F 3 "" H 7600 1300 50  0001 C CNN
+	1    7600 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D11
+U 1 1 5C6811B3
+P 7750 1300
+F 0 "D11" H 7750 1084 50  0000 C CNN
+F 1 "1N4148" H 7750 1175 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7750 1125 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7750 1300 50  0001 C CNN
+	1    7750 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW12
+U 1 1 5C6811BA
+P 8250 1100
+F 0 "SW12" H 8250 1385 50  0000 C CNN
+F 1 "SW_Push" H 8250 1294 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 8250 1300 50  0001 C CNN
+F 3 "" H 8250 1300 50  0001 C CNN
+	1    8250 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D12
+U 1 1 5C6811C1
+P 8400 1300
+F 0 "D12" H 8400 1084 50  0000 C CNN
+F 1 "1N4148" H 8400 1175 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8400 1125 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8400 1300 50  0001 C CNN
+	1    8400 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW13
+U 1 1 5C6811C8
+P 8900 1100
+F 0 "SW13" H 8900 1385 50  0000 C CNN
+F 1 "SW_Push" H 8900 1294 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 8900 1300 50  0001 C CNN
+F 3 "" H 8900 1300 50  0001 C CNN
+	1    8900 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D13
+U 1 1 5C6811CF
+P 9050 1300
+F 0 "D13" H 9050 1084 50  0000 C CNN
+F 1 "1N4148" H 9050 1175 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9050 1125 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 9050 1300 50  0001 C CNN
+	1    9050 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW14
+U 1 1 5C6811D6
+P 9550 1100
+F 0 "SW14" H 9550 1385 50  0000 C CNN
+F 1 "SW_Push" H 9550 1294 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 9550 1300 50  0001 C CNN
+F 3 "" H 9550 1300 50  0001 C CNN
+	1    9550 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D14
+U 1 1 5C6811DD
+P 9700 1300
+F 0 "D14" H 9700 1084 50  0000 C CNN
+F 1 "1N4148" H 9700 1175 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9700 1125 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 9700 1300 50  0001 C CNN
+	1    9700 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW15
+U 1 1 5C68175F
+P 1100 1650
+F 0 "SW15" H 1100 1935 50  0000 C CNN
+F 1 "SW_Push" H 1100 1844 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 1100 1850 50  0001 C CNN
+F 3 "" H 1100 1850 50  0001 C CNN
+	1    1100 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D15
+U 1 1 5C681766
+P 1250 1850
+F 0 "D15" H 1250 1634 50  0000 C CNN
+F 1 "1N4148" H 1250 1725 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1250 1675 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 1250 1850 50  0001 C CNN
+	1    1250 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW16
+U 1 1 5C68176D
+P 1750 1650
+F 0 "SW16" H 1750 1935 50  0000 C CNN
+F 1 "SW_Push" H 1750 1844 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 1750 1850 50  0001 C CNN
+F 3 "" H 1750 1850 50  0001 C CNN
+	1    1750 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D16
+U 1 1 5C681774
+P 1900 1850
+F 0 "D16" H 1900 1634 50  0000 C CNN
+F 1 "1N4148" H 1900 1725 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1900 1675 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 1900 1850 50  0001 C CNN
+	1    1900 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW17
+U 1 1 5C68177B
+P 2400 1650
+F 0 "SW17" H 2400 1935 50  0000 C CNN
+F 1 "SW_Push" H 2400 1844 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 2400 1850 50  0001 C CNN
+F 3 "" H 2400 1850 50  0001 C CNN
+	1    2400 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D17
+U 1 1 5C681782
+P 2550 1850
+F 0 "D17" H 2550 1634 50  0000 C CNN
+F 1 "1N4148" H 2550 1725 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2550 1675 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 2550 1850 50  0001 C CNN
+	1    2550 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW18
+U 1 1 5C681789
+P 3050 1650
+F 0 "SW18" H 3050 1935 50  0000 C CNN
+F 1 "SW_Push" H 3050 1844 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 3050 1850 50  0001 C CNN
+F 3 "" H 3050 1850 50  0001 C CNN
+	1    3050 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D18
+U 1 1 5C681790
+P 3200 1850
+F 0 "D18" H 3200 1634 50  0000 C CNN
+F 1 "1N4148" H 3200 1725 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3200 1675 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 3200 1850 50  0001 C CNN
+	1    3200 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW19
+U 1 1 5C681797
+P 3700 1650
+F 0 "SW19" H 3700 1935 50  0000 C CNN
+F 1 "SW_Push" H 3700 1844 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 3700 1850 50  0001 C CNN
+F 3 "" H 3700 1850 50  0001 C CNN
+	1    3700 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D19
+U 1 1 5C68179E
+P 3850 1850
+F 0 "D19" H 3850 1634 50  0000 C CNN
+F 1 "1N4148" H 3850 1725 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3850 1675 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 3850 1850 50  0001 C CNN
+	1    3850 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW20
+U 1 1 5C6817A5
+P 4350 1650
+F 0 "SW20" H 4350 1935 50  0000 C CNN
+F 1 "SW_Push" H 4350 1844 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 4350 1850 50  0001 C CNN
+F 3 "" H 4350 1850 50  0001 C CNN
+	1    4350 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D20
+U 1 1 5C6817AC
+P 4500 1850
+F 0 "D20" H 4500 1634 50  0000 C CNN
+F 1 "1N4148" H 4500 1725 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4500 1675 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4500 1850 50  0001 C CNN
+	1    4500 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW21
+U 1 1 5C6817B3
+P 5000 1650
+F 0 "SW21" H 5000 1935 50  0000 C CNN
+F 1 "SW_Push" H 5000 1844 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 5000 1850 50  0001 C CNN
+F 3 "" H 5000 1850 50  0001 C CNN
+	1    5000 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D21
+U 1 1 5C6817BA
+P 5150 1850
+F 0 "D21" H 5150 1634 50  0000 C CNN
+F 1 "1N4148" H 5150 1725 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5150 1675 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5150 1850 50  0001 C CNN
+	1    5150 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW22
+U 1 1 5C6817C1
+P 5650 1650
+F 0 "SW22" H 5650 1935 50  0000 C CNN
+F 1 "SW_Push" H 5650 1844 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 5650 1850 50  0001 C CNN
+F 3 "" H 5650 1850 50  0001 C CNN
+	1    5650 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D22
+U 1 1 5C6817C8
+P 5800 1850
+F 0 "D22" H 5800 1634 50  0000 C CNN
+F 1 "1N4148" H 5800 1725 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5800 1675 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5800 1850 50  0001 C CNN
+	1    5800 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW23
+U 1 1 5C6817CF
+P 6300 1650
+F 0 "SW23" H 6300 1935 50  0000 C CNN
+F 1 "SW_Push" H 6300 1844 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6300 1850 50  0001 C CNN
+F 3 "" H 6300 1850 50  0001 C CNN
+	1    6300 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D23
+U 1 1 5C6817D6
+P 6450 1850
+F 0 "D23" H 6450 1634 50  0000 C CNN
+F 1 "1N4148" H 6450 1725 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6450 1675 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6450 1850 50  0001 C CNN
+	1    6450 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW24
+U 1 1 5C6817DD
+P 6950 1650
+F 0 "SW24" H 6950 1935 50  0000 C CNN
+F 1 "SW_Push" H 6950 1844 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6950 1850 50  0001 C CNN
+F 3 "" H 6950 1850 50  0001 C CNN
+	1    6950 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D24
+U 1 1 5C6817E4
+P 7100 1850
+F 0 "D24" H 7100 1634 50  0000 C CNN
+F 1 "1N4148" H 7100 1725 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7100 1675 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7100 1850 50  0001 C CNN
+	1    7100 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW25
+U 1 1 5C6817EB
+P 7600 1650
+F 0 "SW25" H 7600 1935 50  0000 C CNN
+F 1 "SW_Push" H 7600 1844 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7600 1850 50  0001 C CNN
+F 3 "" H 7600 1850 50  0001 C CNN
+	1    7600 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D25
+U 1 1 5C6817F2
+P 7750 1850
+F 0 "D25" H 7750 1634 50  0000 C CNN
+F 1 "1N4148" H 7750 1725 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7750 1675 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7750 1850 50  0001 C CNN
+	1    7750 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW26
+U 1 1 5C6817F9
+P 8250 1650
+F 0 "SW26" H 8250 1935 50  0000 C CNN
+F 1 "SW_Push" H 8250 1844 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 8250 1850 50  0001 C CNN
+F 3 "" H 8250 1850 50  0001 C CNN
+	1    8250 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D26
+U 1 1 5C681800
+P 8400 1850
+F 0 "D26" H 8400 1634 50  0000 C CNN
+F 1 "1N4148" H 8400 1725 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8400 1675 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8400 1850 50  0001 C CNN
+	1    8400 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW27
+U 1 1 5C681807
+P 8900 1650
+F 0 "SW27" H 8900 1935 50  0000 C CNN
+F 1 "SW_Push" H 8900 1844 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 8900 1850 50  0001 C CNN
+F 3 "" H 8900 1850 50  0001 C CNN
+	1    8900 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D27
+U 1 1 5C68180E
+P 9050 1850
+F 0 "D27" H 9050 1634 50  0000 C CNN
+F 1 "1N4148" H 9050 1725 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9050 1675 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 9050 1850 50  0001 C CNN
+	1    9050 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW28
+U 1 1 5C681815
+P 9550 1650
+F 0 "SW28" H 9550 1935 50  0000 C CNN
+F 1 "SW_Push" H 9550 1844 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 9550 1850 50  0001 C CNN
+F 3 "" H 9550 1850 50  0001 C CNN
+	1    9550 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D28
+U 1 1 5C68181C
+P 9700 1850
+F 0 "D28" H 9700 1634 50  0000 C CNN
+F 1 "1N4148" H 9700 1725 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9700 1675 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 9700 1850 50  0001 C CNN
+	1    9700 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW29
+U 1 1 5C682156
+P 1100 2200
+F 0 "SW29" H 1100 2485 50  0000 C CNN
+F 1 "SW_Push" H 1100 2394 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 1100 2400 50  0001 C CNN
+F 3 "" H 1100 2400 50  0001 C CNN
+	1    1100 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D29
+U 1 1 5C68215D
+P 1250 2400
+F 0 "D29" H 1250 2184 50  0000 C CNN
+F 1 "1N4148" H 1250 2275 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1250 2225 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 1250 2400 50  0001 C CNN
+	1    1250 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW30
+U 1 1 5C682164
+P 1750 2200
+F 0 "SW30" H 1750 2485 50  0000 C CNN
+F 1 "SW_Push" H 1750 2394 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 1750 2400 50  0001 C CNN
+F 3 "" H 1750 2400 50  0001 C CNN
+	1    1750 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D30
+U 1 1 5C68216B
+P 1900 2400
+F 0 "D30" H 1900 2184 50  0000 C CNN
+F 1 "1N4148" H 1900 2275 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1900 2225 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 1900 2400 50  0001 C CNN
+	1    1900 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW31
+U 1 1 5C682172
+P 2400 2200
+F 0 "SW31" H 2400 2485 50  0000 C CNN
+F 1 "SW_Push" H 2400 2394 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 2400 2400 50  0001 C CNN
+F 3 "" H 2400 2400 50  0001 C CNN
+	1    2400 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D31
+U 1 1 5C682179
+P 2550 2400
+F 0 "D31" H 2550 2184 50  0000 C CNN
+F 1 "1N4148" H 2550 2275 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2550 2225 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 2550 2400 50  0001 C CNN
+	1    2550 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW32
+U 1 1 5C682180
+P 3050 2200
+F 0 "SW32" H 3050 2485 50  0000 C CNN
+F 1 "SW_Push" H 3050 2394 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 3050 2400 50  0001 C CNN
+F 3 "" H 3050 2400 50  0001 C CNN
+	1    3050 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D32
+U 1 1 5C682187
+P 3200 2400
+F 0 "D32" H 3200 2184 50  0000 C CNN
+F 1 "1N4148" H 3200 2275 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3200 2225 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 3200 2400 50  0001 C CNN
+	1    3200 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW33
+U 1 1 5C68218E
+P 3700 2200
+F 0 "SW33" H 3700 2485 50  0000 C CNN
+F 1 "SW_Push" H 3700 2394 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 3700 2400 50  0001 C CNN
+F 3 "" H 3700 2400 50  0001 C CNN
+	1    3700 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D33
+U 1 1 5C682195
+P 3850 2400
+F 0 "D33" H 3850 2184 50  0000 C CNN
+F 1 "1N4148" H 3850 2275 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3850 2225 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 3850 2400 50  0001 C CNN
+	1    3850 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW34
+U 1 1 5C68219C
+P 4350 2200
+F 0 "SW34" H 4350 2485 50  0000 C CNN
+F 1 "SW_Push" H 4350 2394 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 4350 2400 50  0001 C CNN
+F 3 "" H 4350 2400 50  0001 C CNN
+	1    4350 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D34
+U 1 1 5C6821A3
+P 4500 2400
+F 0 "D34" H 4500 2184 50  0000 C CNN
+F 1 "1N4148" H 4500 2275 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4500 2225 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4500 2400 50  0001 C CNN
+	1    4500 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW35
+U 1 1 5C6821AA
+P 5000 2200
+F 0 "SW35" H 5000 2485 50  0000 C CNN
+F 1 "SW_Push" H 5000 2394 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 5000 2400 50  0001 C CNN
+F 3 "" H 5000 2400 50  0001 C CNN
+	1    5000 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D35
+U 1 1 5C6821B1
+P 5150 2400
+F 0 "D35" H 5150 2184 50  0000 C CNN
+F 1 "1N4148" H 5150 2275 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5150 2225 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5150 2400 50  0001 C CNN
+	1    5150 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW36
+U 1 1 5C6821B8
+P 5650 2200
+F 0 "SW36" H 5650 2485 50  0000 C CNN
+F 1 "SW_Push" H 5650 2394 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 5650 2400 50  0001 C CNN
+F 3 "" H 5650 2400 50  0001 C CNN
+	1    5650 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D36
+U 1 1 5C6821BF
+P 5800 2400
+F 0 "D36" H 5800 2184 50  0000 C CNN
+F 1 "1N4148" H 5800 2275 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5800 2225 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5800 2400 50  0001 C CNN
+	1    5800 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW37
+U 1 1 5C6821C6
+P 6300 2200
+F 0 "SW37" H 6300 2485 50  0000 C CNN
+F 1 "SW_Push" H 6300 2394 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6300 2400 50  0001 C CNN
+F 3 "" H 6300 2400 50  0001 C CNN
+	1    6300 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D37
+U 1 1 5C6821CD
+P 6450 2400
+F 0 "D37" H 6450 2184 50  0000 C CNN
+F 1 "1N4148" H 6450 2275 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6450 2225 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6450 2400 50  0001 C CNN
+	1    6450 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW38
+U 1 1 5C6821D4
+P 6950 2200
+F 0 "SW38" H 6950 2485 50  0000 C CNN
+F 1 "SW_Push" H 6950 2394 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6950 2400 50  0001 C CNN
+F 3 "" H 6950 2400 50  0001 C CNN
+	1    6950 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D38
+U 1 1 5C6821DB
+P 7100 2400
+F 0 "D38" H 7100 2184 50  0000 C CNN
+F 1 "1N4148" H 7100 2275 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7100 2225 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7100 2400 50  0001 C CNN
+	1    7100 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW39
+U 1 1 5C6821E2
+P 7600 2200
+F 0 "SW39" H 7600 2485 50  0000 C CNN
+F 1 "SW_Push" H 7600 2394 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7600 2400 50  0001 C CNN
+F 3 "" H 7600 2400 50  0001 C CNN
+	1    7600 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D39
+U 1 1 5C6821E9
+P 7750 2400
+F 0 "D39" H 7750 2184 50  0000 C CNN
+F 1 "1N4148" H 7750 2275 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7750 2225 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7750 2400 50  0001 C CNN
+	1    7750 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW40
+U 1 1 5C6821F0
+P 8250 2200
+F 0 "SW40" H 8250 2485 50  0000 C CNN
+F 1 "SW_Push" H 8250 2394 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 8250 2400 50  0001 C CNN
+F 3 "" H 8250 2400 50  0001 C CNN
+	1    8250 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D40
+U 1 1 5C6821F7
+P 8400 2400
+F 0 "D40" H 8400 2184 50  0000 C CNN
+F 1 "1N4148" H 8400 2275 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8400 2225 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8400 2400 50  0001 C CNN
+	1    8400 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW41
+U 1 1 5C6821FE
+P 8900 2200
+F 0 "SW41" H 8900 2485 50  0000 C CNN
+F 1 "SW_Push" H 8900 2394 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 8900 2400 50  0001 C CNN
+F 3 "" H 8900 2400 50  0001 C CNN
+	1    8900 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D41
+U 1 1 5C682205
+P 9050 2400
+F 0 "D41" H 9050 2184 50  0000 C CNN
+F 1 "1N4148" H 9050 2275 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9050 2225 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 9050 2400 50  0001 C CNN
+	1    9050 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW42
+U 1 1 5C68220C
+P 9550 2200
+F 0 "SW42" H 9550 2485 50  0000 C CNN
+F 1 "SW_Push" H 9550 2394 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 9550 2400 50  0001 C CNN
+F 3 "" H 9550 2400 50  0001 C CNN
+	1    9550 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D42
+U 1 1 5C682213
+P 9700 2400
+F 0 "D42" H 9700 2184 50  0000 C CNN
+F 1 "1N4148" H 9700 2275 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9700 2225 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 9700 2400 50  0001 C CNN
+	1    9700 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW43
+U 1 1 5C68221A
+P 1100 2750
+F 0 "SW43" H 1100 3035 50  0000 C CNN
+F 1 "SW_Push" H 1100 2944 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 1100 2950 50  0001 C CNN
+F 3 "" H 1100 2950 50  0001 C CNN
+	1    1100 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D43
+U 1 1 5C682221
+P 1250 2950
+F 0 "D43" H 1250 2734 50  0000 C CNN
+F 1 "1N4148" H 1250 2825 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1250 2775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 1250 2950 50  0001 C CNN
+	1    1250 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW44
+U 1 1 5C682228
+P 1750 2750
+F 0 "SW44" H 1750 3035 50  0000 C CNN
+F 1 "SW_Push" H 1750 2944 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 1750 2950 50  0001 C CNN
+F 3 "" H 1750 2950 50  0001 C CNN
+	1    1750 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D44
+U 1 1 5C68222F
+P 1900 2950
+F 0 "D44" H 1900 2734 50  0000 C CNN
+F 1 "1N4148" H 1900 2825 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1900 2775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 1900 2950 50  0001 C CNN
+	1    1900 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW45
+U 1 1 5C682236
+P 2400 2750
+F 0 "SW45" H 2400 3035 50  0000 C CNN
+F 1 "SW_Push" H 2400 2944 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 2400 2950 50  0001 C CNN
+F 3 "" H 2400 2950 50  0001 C CNN
+	1    2400 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D45
+U 1 1 5C68223D
+P 2550 2950
+F 0 "D45" H 2550 2734 50  0000 C CNN
+F 1 "1N4148" H 2550 2825 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2550 2775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 2550 2950 50  0001 C CNN
+	1    2550 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW46
+U 1 1 5C682244
+P 3050 2750
+F 0 "SW46" H 3050 3035 50  0000 C CNN
+F 1 "SW_Push" H 3050 2944 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 3050 2950 50  0001 C CNN
+F 3 "" H 3050 2950 50  0001 C CNN
+	1    3050 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D46
+U 1 1 5C68224B
+P 3200 2950
+F 0 "D46" H 3200 2734 50  0000 C CNN
+F 1 "1N4148" H 3200 2825 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3200 2775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 3200 2950 50  0001 C CNN
+	1    3200 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW47
+U 1 1 5C682252
+P 3700 2750
+F 0 "SW47" H 3700 3035 50  0000 C CNN
+F 1 "SW_Push" H 3700 2944 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 3700 2950 50  0001 C CNN
+F 3 "" H 3700 2950 50  0001 C CNN
+	1    3700 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D47
+U 1 1 5C682259
+P 3850 2950
+F 0 "D47" H 3850 2734 50  0000 C CNN
+F 1 "1N4148" H 3850 2825 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3850 2775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 3850 2950 50  0001 C CNN
+	1    3850 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW48
+U 1 1 5C682260
+P 4350 2750
+F 0 "SW48" H 4350 3035 50  0000 C CNN
+F 1 "SW_Push" H 4350 2944 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 4350 2950 50  0001 C CNN
+F 3 "" H 4350 2950 50  0001 C CNN
+	1    4350 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D48
+U 1 1 5C682267
+P 4500 2950
+F 0 "D48" H 4500 2734 50  0000 C CNN
+F 1 "1N4148" H 4500 2825 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4500 2775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4500 2950 50  0001 C CNN
+	1    4500 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW49
+U 1 1 5C68226E
+P 5000 2750
+F 0 "SW49" H 5000 3035 50  0000 C CNN
+F 1 "SW_Push" H 5000 2944 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 5000 2950 50  0001 C CNN
+F 3 "" H 5000 2950 50  0001 C CNN
+	1    5000 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D49
+U 1 1 5C682275
+P 5150 2950
+F 0 "D49" H 5150 2734 50  0000 C CNN
+F 1 "1N4148" H 5150 2825 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5150 2775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5150 2950 50  0001 C CNN
+	1    5150 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW50
+U 1 1 5C68227C
+P 5650 2750
+F 0 "SW50" H 5650 3035 50  0000 C CNN
+F 1 "SW_Push" H 5650 2944 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 5650 2950 50  0001 C CNN
+F 3 "" H 5650 2950 50  0001 C CNN
+	1    5650 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D50
+U 1 1 5C682283
+P 5800 2950
+F 0 "D50" H 5800 2734 50  0000 C CNN
+F 1 "1N4148" H 5800 2825 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5800 2775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5800 2950 50  0001 C CNN
+	1    5800 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW51
+U 1 1 5C68228A
+P 6300 2750
+F 0 "SW51" H 6300 3035 50  0000 C CNN
+F 1 "SW_Push" H 6300 2944 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6300 2950 50  0001 C CNN
+F 3 "" H 6300 2950 50  0001 C CNN
+	1    6300 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D51
+U 1 1 5C682291
+P 6450 2950
+F 0 "D51" H 6450 2734 50  0000 C CNN
+F 1 "1N4148" H 6450 2825 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6450 2775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6450 2950 50  0001 C CNN
+	1    6450 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW52
+U 1 1 5C682298
+P 6950 2750
+F 0 "SW52" H 6950 3035 50  0000 C CNN
+F 1 "SW_Push" H 6950 2944 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6950 2950 50  0001 C CNN
+F 3 "" H 6950 2950 50  0001 C CNN
+	1    6950 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D52
+U 1 1 5C68229F
+P 7100 2950
+F 0 "D52" H 7100 2734 50  0000 C CNN
+F 1 "1N4148" H 7100 2825 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7100 2775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7100 2950 50  0001 C CNN
+	1    7100 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW53
+U 1 1 5C6822A6
+P 7600 2750
+F 0 "SW53" H 7600 3035 50  0000 C CNN
+F 1 "SW_Push" H 7600 2944 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7600 2950 50  0001 C CNN
+F 3 "" H 7600 2950 50  0001 C CNN
+	1    7600 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D53
+U 1 1 5C6822AD
+P 7750 2950
+F 0 "D53" H 7750 2734 50  0000 C CNN
+F 1 "1N4148" H 7750 2825 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7750 2775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7750 2950 50  0001 C CNN
+	1    7750 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW54
+U 1 1 5C6822B4
+P 8250 2750
+F 0 "SW54" H 8250 3035 50  0000 C CNN
+F 1 "SW_Push" H 8250 2944 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 8250 2950 50  0001 C CNN
+F 3 "" H 8250 2950 50  0001 C CNN
+	1    8250 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D54
+U 1 1 5C6822BB
+P 8400 2950
+F 0 "D54" H 8400 2734 50  0000 C CNN
+F 1 "1N4148" H 8400 2825 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8400 2775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8400 2950 50  0001 C CNN
+	1    8400 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW55
+U 1 1 5C6822C2
+P 8900 2750
+F 0 "SW55" H 8900 3035 50  0000 C CNN
+F 1 "SW_Push" H 8900 2944 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 8900 2950 50  0001 C CNN
+F 3 "" H 8900 2950 50  0001 C CNN
+	1    8900 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D55
+U 1 1 5C6822C9
+P 9050 2950
+F 0 "D55" H 9050 2734 50  0000 C CNN
+F 1 "1N4148" H 9050 2825 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9050 2775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 9050 2950 50  0001 C CNN
+	1    9050 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW56
+U 1 1 5C6822D0
+P 9550 2750
+F 0 "SW56" H 9550 3035 50  0000 C CNN
+F 1 "SW_Push" H 9550 2944 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 9550 2950 50  0001 C CNN
+F 3 "" H 9550 2950 50  0001 C CNN
+	1    9550 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D56
+U 1 1 5C6822D7
+P 9700 2950
+F 0 "D56" H 9700 2734 50  0000 C CNN
+F 1 "1N4148" H 9700 2825 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9700 2775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 9700 2950 50  0001 C CNN
+	1    9700 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW57
+U 1 1 5C682A6A
+P 1100 3300
+F 0 "SW57" H 1100 3585 50  0000 C CNN
+F 1 "SW_Push" H 1100 3494 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 1100 3500 50  0001 C CNN
+F 3 "" H 1100 3500 50  0001 C CNN
+	1    1100 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D57
+U 1 1 5C682A71
+P 1250 3500
+F 0 "D57" H 1250 3284 50  0000 C CNN
+F 1 "1N4148" H 1250 3375 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1250 3325 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 1250 3500 50  0001 C CNN
+	1    1250 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW58
+U 1 1 5C682A78
+P 1750 3300
+F 0 "SW58" H 1750 3585 50  0000 C CNN
+F 1 "SW_Push" H 1750 3494 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 1750 3500 50  0001 C CNN
+F 3 "" H 1750 3500 50  0001 C CNN
+	1    1750 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D58
+U 1 1 5C682A7F
+P 1900 3500
+F 0 "D58" H 1900 3284 50  0000 C CNN
+F 1 "1N4148" H 1900 3375 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1900 3325 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 1900 3500 50  0001 C CNN
+	1    1900 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW59
+U 1 1 5C682A86
+P 2400 3300
+F 0 "SW59" H 2400 3585 50  0000 C CNN
+F 1 "SW_Push" H 2400 3494 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.25u_PCB" H 2400 3500 50  0001 C CNN
+F 3 "" H 2400 3500 50  0001 C CNN
+	1    2400 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D59
+U 1 1 5C682A8D
+P 2550 3500
+F 0 "D59" H 2550 3284 50  0000 C CNN
+F 1 "1N4148" H 2550 3375 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2550 3325 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 2550 3500 50  0001 C CNN
+	1    2550 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW60
+U 1 1 5C682A94
+P 3050 3300
+F 0 "SW60" H 3050 3585 50  0000 C CNN
+F 1 "SW_Push" H 3050 3494 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.25u_PCB" H 3050 3500 50  0001 C CNN
+F 3 "" H 3050 3500 50  0001 C CNN
+	1    3050 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D60
+U 1 1 5C682A9B
+P 3200 3500
+F 0 "D60" H 3200 3284 50  0000 C CNN
+F 1 "1N4148" H 3200 3375 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3200 3325 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 3200 3500 50  0001 C CNN
+	1    3200 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW61
+U 1 1 5C682AA2
+P 4350 3300
+F 0 "SW61" H 4350 3585 50  0000 C CNN
+F 1 "SW_Push" H 4350 3494 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.50u_PCB" H 4350 3500 50  0001 C CNN
+F 3 "" H 4350 3500 50  0001 C CNN
+	1    4350 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D61
+U 1 1 5C682AA9
+P 4500 3500
+F 0 "D61" H 4500 3284 50  0000 C CNN
+F 1 "1N4148" H 4500 3375 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4500 3325 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4500 3500 50  0001 C CNN
+	1    4500 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW62
+U 1 1 5C682AB0
+P 5000 3300
+F 0 "SW62" H 5000 3585 50  0000 C CNN
+F 1 "SW_Push" H 5000 3494 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.50u_PCB" H 5000 3500 50  0001 C CNN
+F 3 "" H 5000 3500 50  0001 C CNN
+	1    5000 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D62
+U 1 1 5C682AB7
+P 5150 3500
+F 0 "D62" H 5150 3284 50  0000 C CNN
+F 1 "1N4148" H 5150 3375 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5150 3325 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5150 3500 50  0001 C CNN
+	1    5150 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW63
+U 1 1 5C682ABE
+P 6300 3300
+F 0 "SW63" H 6300 3585 50  0000 C CNN
+F 1 "SW_Push" H 6300 3494 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.25u_PCB" H 6300 3500 50  0001 C CNN
+F 3 "" H 6300 3500 50  0001 C CNN
+	1    6300 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D63
+U 1 1 5C682AC5
+P 6450 3500
+F 0 "D63" H 6450 3284 50  0000 C CNN
+F 1 "1N4148" H 6450 3375 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6450 3325 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6450 3500 50  0001 C CNN
+	1    6450 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW64
+U 1 1 5C682ACC
+P 6950 3300
+F 0 "SW64" H 6950 3585 50  0000 C CNN
+F 1 "SW_Push" H 6950 3494 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.25u_PCB" H 6950 3500 50  0001 C CNN
+F 3 "" H 6950 3500 50  0001 C CNN
+	1    6950 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D64
+U 1 1 5C682AD3
+P 7100 3500
+F 0 "D64" H 7100 3284 50  0000 C CNN
+F 1 "1N4148" H 7100 3375 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7100 3325 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7100 3500 50  0001 C CNN
+	1    7100 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW65
+U 1 1 5C682ADA
+P 7600 3300
+F 0 "SW65" H 7600 3585 50  0000 C CNN
+F 1 "SW_Push" H 7600 3494 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7600 3500 50  0001 C CNN
+F 3 "" H 7600 3500 50  0001 C CNN
+	1    7600 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D65
+U 1 1 5C682AE1
+P 7750 3500
+F 0 "D65" H 7750 3284 50  0000 C CNN
+F 1 "1N4148" H 7750 3375 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7750 3325 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7750 3500 50  0001 C CNN
+	1    7750 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW66
+U 1 1 5C682AE8
+P 8250 3300
+F 0 "SW66" H 8250 3585 50  0000 C CNN
+F 1 "SW_Push" H 8250 3494 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 8250 3500 50  0001 C CNN
+F 3 "" H 8250 3500 50  0001 C CNN
+	1    8250 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D66
+U 1 1 5C682AEF
+P 8400 3500
+F 0 "D66" H 8400 3284 50  0000 C CNN
+F 1 "1N4148" H 8400 3375 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8400 3325 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8400 3500 50  0001 C CNN
+	1    8400 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW67
+U 1 1 5C682AF6
+P 8900 3300
+F 0 "SW67" H 8900 3585 50  0000 C CNN
+F 1 "SW_Push" H 8900 3494 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 8900 3500 50  0001 C CNN
+F 3 "" H 8900 3500 50  0001 C CNN
+	1    8900 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D67
+U 1 1 5C682AFD
+P 9050 3500
+F 0 "D67" H 9050 3284 50  0000 C CNN
+F 1 "1N4148" H 9050 3375 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9050 3325 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 9050 3500 50  0001 C CNN
+	1    9050 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW68
+U 1 1 5C682B04
+P 9550 3300
+F 0 "SW68" H 9550 3585 50  0000 C CNN
+F 1 "SW_Push" H 9550 3494 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 9550 3500 50  0001 C CNN
+F 3 "" H 9550 3500 50  0001 C CNN
+	1    9550 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D68
+U 1 1 5C682B0B
+P 9700 3500
+F 0 "D68" H 9700 3284 50  0000 C CNN
+F 1 "1N4148" H 9700 3375 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9700 3325 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 9700 3500 50  0001 C CNN
+	1    9700 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1100 900  1750 900 
+Wire Wire Line
+	1750 900  2400 900 
+Connection ~ 1750 900 
+Connection ~ 2400 900 
+Wire Wire Line
+	2400 900  3050 900 
+Connection ~ 3050 900 
+Wire Wire Line
+	3050 900  3700 900 
+Connection ~ 3700 900 
+Wire Wire Line
+	3700 900  4350 900 
+Connection ~ 4350 900 
+Wire Wire Line
+	4350 900  5000 900 
+Connection ~ 5000 900 
+Wire Wire Line
+	5000 900  5650 900 
+Connection ~ 5650 900 
+Wire Wire Line
+	5650 900  6300 900 
+Connection ~ 6300 900 
+Wire Wire Line
+	6300 900  6950 900 
+Connection ~ 6950 900 
+Wire Wire Line
+	6950 900  7600 900 
+Connection ~ 7600 900 
+Wire Wire Line
+	7600 900  8250 900 
+Connection ~ 8250 900 
+Wire Wire Line
+	8250 900  8900 900 
+Connection ~ 8900 900 
+Wire Wire Line
+	8900 900  9550 900 
+Connection ~ 9550 900 
+Wire Wire Line
+	9550 900  10600 900 
+Wire Wire Line
+	1100 1450 1750 1450
+Connection ~ 1750 1450
+Wire Wire Line
+	1750 1450 2400 1450
+Connection ~ 2400 1450
+Wire Wire Line
+	2400 1450 3050 1450
+Connection ~ 3050 1450
+Wire Wire Line
+	3050 1450 3700 1450
+Connection ~ 3700 1450
+Wire Wire Line
+	3700 1450 4350 1450
+Connection ~ 4350 1450
+Wire Wire Line
+	4350 1450 5000 1450
+Connection ~ 5000 1450
+Wire Wire Line
+	5000 1450 5650 1450
+Connection ~ 5650 1450
+Wire Wire Line
+	5650 1450 6300 1450
+Connection ~ 6300 1450
+Wire Wire Line
+	6300 1450 6950 1450
+Connection ~ 6950 1450
+Wire Wire Line
+	6950 1450 7600 1450
+Connection ~ 7600 1450
+Wire Wire Line
+	7600 1450 8250 1450
+Connection ~ 8250 1450
+Wire Wire Line
+	8250 1450 8900 1450
+Connection ~ 8900 1450
+Wire Wire Line
+	8900 1450 9550 1450
+Connection ~ 9550 1450
+Wire Wire Line
+	9550 1450 10600 1450
+Wire Wire Line
+	1100 2000 1750 2000
+Connection ~ 1750 2000
+Wire Wire Line
+	1750 2000 2400 2000
+Connection ~ 2400 2000
+Wire Wire Line
+	2400 2000 3050 2000
+Connection ~ 3050 2000
+Wire Wire Line
+	3050 2000 3700 2000
+Connection ~ 3700 2000
+Wire Wire Line
+	3700 2000 4350 2000
+Connection ~ 4350 2000
+Wire Wire Line
+	4350 2000 5000 2000
+Connection ~ 5000 2000
+Wire Wire Line
+	5000 2000 5650 2000
+Connection ~ 5650 2000
+Wire Wire Line
+	5650 2000 6300 2000
+Connection ~ 6300 2000
+Wire Wire Line
+	6300 2000 6950 2000
+Connection ~ 6950 2000
+Wire Wire Line
+	6950 2000 7600 2000
+Connection ~ 7600 2000
+Wire Wire Line
+	7600 2000 8250 2000
+Connection ~ 8250 2000
+Wire Wire Line
+	8250 2000 8900 2000
+Connection ~ 8900 2000
+Wire Wire Line
+	8900 2000 9550 2000
+Connection ~ 9550 2000
+Wire Wire Line
+	9550 2000 10600 2000
+Wire Wire Line
+	1100 2550 1750 2550
+Connection ~ 1750 2550
+Wire Wire Line
+	1750 2550 2400 2550
+Connection ~ 2400 2550
+Wire Wire Line
+	2400 2550 3050 2550
+Connection ~ 3050 2550
+Wire Wire Line
+	3050 2550 3700 2550
+Connection ~ 3700 2550
+Wire Wire Line
+	3700 2550 4350 2550
+Connection ~ 4350 2550
+Wire Wire Line
+	4350 2550 5000 2550
+Connection ~ 5000 2550
+Wire Wire Line
+	5000 2550 5650 2550
+Connection ~ 5650 2550
+Wire Wire Line
+	5650 2550 6300 2550
+Connection ~ 6300 2550
+Wire Wire Line
+	6300 2550 6950 2550
+Connection ~ 6950 2550
+Wire Wire Line
+	6950 2550 7600 2550
+Connection ~ 7600 2550
+Wire Wire Line
+	7600 2550 8250 2550
+Connection ~ 8250 2550
+Wire Wire Line
+	8250 2550 8900 2550
+Connection ~ 8900 2550
+Wire Wire Line
+	8900 2550 9550 2550
+Connection ~ 9550 2550
+Wire Wire Line
+	9550 2550 10600 2550
+Wire Wire Line
+	1100 3100 1750 3100
+Connection ~ 1750 3100
+Wire Wire Line
+	1750 3100 2400 3100
+Connection ~ 2400 3100
+Wire Wire Line
+	2400 3100 3050 3100
+Connection ~ 3050 3100
+Connection ~ 4350 3100
+Connection ~ 6950 3100
+Wire Wire Line
+	6950 3100 7600 3100
+Connection ~ 7600 3100
+Wire Wire Line
+	7600 3100 8250 3100
+Connection ~ 8250 3100
+Wire Wire Line
+	8250 3100 8900 3100
+Wire Wire Line
+	1400 1300 1400 1850
+Connection ~ 1400 1850
+Wire Wire Line
+	1400 1850 1400 2400
+Connection ~ 1400 2400
+Wire Wire Line
+	1400 2400 1400 2950
+Connection ~ 1400 2950
+Wire Wire Line
+	1400 2950 1400 3500
+Connection ~ 1400 3500
+Wire Wire Line
+	1400 3500 1400 4000
+Wire Wire Line
+	2050 1300 2050 1850
+Connection ~ 2050 1850
+Wire Wire Line
+	2050 1850 2050 2400
+Connection ~ 2050 2400
+Wire Wire Line
+	2050 2400 2050 2950
+Connection ~ 2050 2950
+Wire Wire Line
+	2050 2950 2050 3500
+Connection ~ 2050 3500
+Wire Wire Line
+	2050 3500 2050 4000
+Wire Wire Line
+	2700 1300 2700 1850
+Connection ~ 2700 1850
+Wire Wire Line
+	2700 1850 2700 2400
+Connection ~ 2700 2400
+Wire Wire Line
+	2700 2400 2700 2950
+Connection ~ 2700 2950
+Wire Wire Line
+	2700 2950 2700 3500
+Connection ~ 2700 3500
+Wire Wire Line
+	2700 3500 2700 4000
+Wire Wire Line
+	3350 1300 3350 1850
+Connection ~ 3350 1850
+Wire Wire Line
+	3350 1850 3350 2400
+Connection ~ 3350 2400
+Wire Wire Line
+	3350 2400 3350 2950
+Connection ~ 3350 2950
+Wire Wire Line
+	3350 2950 3350 3500
+Connection ~ 3350 3500
+Wire Wire Line
+	3350 3500 3350 4000
+Wire Wire Line
+	4000 1300 4000 1850
+Connection ~ 4000 1850
+Wire Wire Line
+	4000 1850 4000 2400
+Connection ~ 4000 2400
+Wire Wire Line
+	4000 2400 4000 2950
+Wire Wire Line
+	4650 2950 4650 3500
+Connection ~ 4650 3500
+Wire Wire Line
+	4650 3500 4650 4000
+Wire Wire Line
+	4650 1300 4650 1850
+Connection ~ 4650 1850
+Wire Wire Line
+	4650 1850 4650 2400
+Connection ~ 4650 2400
+Wire Wire Line
+	4650 2400 4650 2950
+Connection ~ 4650 2950
+Wire Wire Line
+	5300 2950 5300 3500
+Connection ~ 5300 3500
+Wire Wire Line
+	5300 1300 5300 1850
+Connection ~ 5300 1850
+Wire Wire Line
+	5300 1850 5300 2400
+Connection ~ 5300 2400
+Wire Wire Line
+	5300 2400 5300 2950
+Wire Wire Line
+	6600 2950 6600 3500
+Connection ~ 6600 3500
+Wire Wire Line
+	6600 3500 6600 4000
+Wire Wire Line
+	5950 1300 5950 1850
+Connection ~ 5950 1850
+Wire Wire Line
+	5950 1850 5950 2400
+Connection ~ 5950 2400
+Wire Wire Line
+	5950 2400 5950 2950
+Wire Wire Line
+	7250 2950 7250 3500
+Connection ~ 7250 3500
+Wire Wire Line
+	6600 1300 6600 1850
+Connection ~ 6600 1850
+Wire Wire Line
+	6600 1850 6600 2400
+Connection ~ 6600 2400
+Wire Wire Line
+	6600 2400 6600 2950
+Wire Wire Line
+	7900 2950 7900 3500
+Connection ~ 7900 3500
+Wire Wire Line
+	7900 3500 7900 4000
+Wire Wire Line
+	7250 1300 7250 1850
+Connection ~ 7250 1850
+Wire Wire Line
+	7250 1850 7250 2400
+Connection ~ 7250 2400
+Wire Wire Line
+	7250 2400 7250 2950
+Connection ~ 7250 2950
+Wire Wire Line
+	8550 2950 8550 3500
+Connection ~ 8550 3500
+Wire Wire Line
+	8550 3500 8550 4000
+Wire Wire Line
+	7900 1300 7900 1850
+Connection ~ 7900 1850
+Wire Wire Line
+	7900 1850 7900 2400
+Connection ~ 7900 2400
+Wire Wire Line
+	7900 2400 7900 2950
+Connection ~ 7900 2950
+Wire Wire Line
+	9200 2950 9200 3500
+Connection ~ 9200 3500
+Wire Wire Line
+	9200 3500 9200 4000
+Wire Wire Line
+	8550 1300 8550 1850
+Connection ~ 8550 1850
+Wire Wire Line
+	8550 1850 8550 2400
+Connection ~ 8550 2400
+Wire Wire Line
+	8550 2400 8550 2950
+Connection ~ 8550 2950
+Wire Wire Line
+	9850 2950 9850 3500
+Connection ~ 9850 3500
+Wire Wire Line
+	9850 3500 9850 4000
+Wire Wire Line
+	9200 1300 9200 1850
+Connection ~ 9200 1850
+Wire Wire Line
+	9200 1850 9200 2400
+Connection ~ 9200 2400
+Wire Wire Line
+	9200 2400 9200 2950
+Connection ~ 9200 2950
+Wire Wire Line
+	9850 1300 9850 1850
+Connection ~ 9850 1850
+Wire Wire Line
+	9850 1850 9850 2400
+Connection ~ 9850 2400
+Wire Wire Line
+	9850 2400 9850 2950
+Connection ~ 9850 2950
+Wire Wire Line
+	5300 3500 5300 4000
+Wire Wire Line
+	7250 3500 7250 4000
+Text Label 10600 900  0    50   ~ 0
+ROW1
+Text Label 10600 1450 0    50   ~ 0
+ROW2
+Text Label 10600 2000 0    50   ~ 0
+ROW3
+Text Label 10600 2550 0    50   ~ 0
+ROW4
+Text Label 10600 3100 0    50   ~ 0
+ROW5
+Text Label 1400 4000 0    50   ~ 0
+COL1
+Text Label 2050 4000 0    50   ~ 0
+COL2
+Text Label 2700 4000 0    50   ~ 0
+COL3
+Text Label 3350 4000 0    50   ~ 0
+COL4
+Text Label 4000 4000 0    50   ~ 0
+COL5
+Text Label 4650 4000 0    50   ~ 0
+COL6
+Text Label 5300 4000 0    50   ~ 0
+COL7
+Text Label 5950 4000 0    50   ~ 0
+COL8
+Text Label 6600 4000 0    50   ~ 0
+COL9
+Text Label 7250 4000 0    50   ~ 0
+COL10
+Text Label 7900 4000 0    50   ~ 0
+COL11
+Text Label 8550 4000 0    50   ~ 0
+COL12
+Text Label 9200 4000 0    50   ~ 0
+COL13
+Text Label 9850 4000 0    50   ~ 0
+COL14
+Text Label 10700 5800 0    50   ~ 0
+ROW1
+Text Label 10700 6100 0    50   ~ 0
+ROW2
+Text Label 9300 5400 2    50   ~ 0
+ROW3
+Text Label 9300 5200 2    50   ~ 0
+ROW4
+Text Label 9300 5300 2    50   ~ 0
+ROW5
+$Comp
+L rabbit68-rescue:Teensy2.0-Teensy-kai1-rescue U1
+U 1 1 5C673BB0
+P 10000 5550
+F 0 "U1" H 10000 6587 60  0000 C CNN
+F 1 "Teensy2.0-Teensy" H 10000 6481 60  0000 C CNN
+F 2 "Teensy:Teensy2.0" H 10100 4500 60  0001 C CNN
+F 3 "" H 10100 4500 60  0000 C CNN
+	1    10000 5550
+	1    0    0    -1  
+$EndComp
+Text Label 10700 6200 0    50   ~ 0
+COL1
+Text Label 9300 5500 2    50   ~ 0
+COL2
+Text Label 10700 6000 0    50   ~ 0
+COL3
+Text Label 9300 5600 2    50   ~ 0
+COL4
+Text Label 10700 5900 0    50   ~ 0
+COL5
+Text Label 10700 5700 0    50   ~ 0
+COL6
+Text Label 10700 5600 0    50   ~ 0
+COL7
+Text Label 10700 5500 0    50   ~ 0
+COL8
+Text Label 10700 5400 0    50   ~ 0
+COL9
+Text Label 10700 5300 0    50   ~ 0
+COL10
+Text Label 10700 5200 0    50   ~ 0
+COL11
+Text Label 9300 4900 2    50   ~ 0
+COL12
+Text Label 9300 5000 2    50   ~ 0
+COL13
+NoConn ~ 9300 4800
+NoConn ~ 9300 5700
+NoConn ~ 9300 5800
+NoConn ~ 9300 5900
+NoConn ~ 9300 6100
+NoConn ~ 9300 6200
+NoConn ~ 9300 6300
+NoConn ~ 10700 5100
+NoConn ~ 10700 4900
+Connection ~ 8900 3100
+Wire Wire Line
+	8900 3100 9550 3100
+Connection ~ 9550 3100
+Wire Wire Line
+	9550 3100 10600 3100
+Connection ~ 6300 3100
+Wire Wire Line
+	6300 3100 6950 3100
+Connection ~ 6600 2950
+Wire Wire Line
+	4350 3100 5000 3100
+Connection ~ 5300 2950
+Wire Wire Line
+	5950 2950 5950 4000
+Connection ~ 5950 2950
+Connection ~ 5000 3100
+Wire Wire Line
+	5000 3100 6300 3100
+Wire Wire Line
+	3050 3100 4350 3100
+Wire Wire Line
+	4000 2950 4000 4000
+Connection ~ 4000 2950
+Text Label 9300 5100 2    50   ~ 0
+COL14
+NoConn ~ 9300 6000
+NoConn ~ 10700 6300
+NoConn ~ 6650 5650
+NoConn ~ 10700 5000
+$EndSCHEMATC

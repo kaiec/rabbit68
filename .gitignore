@@ -24,3 +24,6 @@ _autosave-*
 # Exported BOM files
 *.xml
 *.csv
+
+# Exported bitmaps from svgs
+*.svg.png

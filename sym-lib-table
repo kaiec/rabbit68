@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name kai1-rescue)(type Legacy)(uri ${KIPRJMOD}/kai1-rescue.lib)(options "")(descr ""))
+  (lib (name rabbit68-rescue)(type Legacy)(uri ${KIPRJMOD}/rabbit68-rescue.lib)(options "")(descr ""))
+)
