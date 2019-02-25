@@ -29,3 +29,7 @@ The PCB uses a Teensy 2.0 as controller. This way the whole PCB is basically jus
 - https://easyeda.com/7zark7/Kailh-Ortholinear
 - https://imgur.com/a/gqjEYFf
 - https://www.reddit.com/r/MechanicalKeyboards/comments/8sy17h/diy_low_profile_ortho/
+
+## Guides
+- https://github.com/ruiqimao/keyboard-pcb-guide
+- https://kbwiki.ai03.me/books/pcb-design
