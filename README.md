@@ -23,7 +23,7 @@ The PCB uses a Teensy 2.0 as controller. This way the whole PCB is basically jus
 
 - PCB: 
   - JLCPCB, about 20€ per 5 PCBs = 4€
- - Controller
+- Controller
   - Teensy 2.0, eBay, 10€
 - Diodes:
   - 1N4148, 500 pcs 3.38€ at Amazon = 1€
