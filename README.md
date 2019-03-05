@@ -21,6 +21,8 @@ The PCB uses a Teensy 2.0 as controller. This way the whole PCB is basically jus
 
 ## Shopping List
 
+This is what I use for the very first prototype. Neither fancy, nor quality, maybe not even good looking. We will see. Especially the switches seem way too cheap... but it should be good enough to test the overall layout and gain experiences with the design and build process.
+
 - PCB: 
   - JLCPCB, about 20€ per 5 PCBs = 4€
 - Controller
