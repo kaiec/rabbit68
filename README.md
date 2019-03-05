@@ -19,6 +19,26 @@ http://www.keyboard-layout-editor.com/#/gists/c885816c6b763c657e40474b015e362b
 The PCB uses a Teensy 2.0 as controller. This way the whole PCB is basically just to avoid handwiring.
 
 
+## Shopping List
+
+- PCB: 
+  - JLCPCB, about 20€ per 5 PCBs = 4€
+ - Controller
+  - Teensy 2.0, eBay, 10€
+- Diodes:
+  - 1N4148, 500 pcs 3.38€ at Amazon = 1€
+- Caps (ultra cheap standard sets, make sure all required sizes are contained): 
+   - Schwarz blank PBT 61 ANSI Keybord Schlüsselkappen Set für MX Switches Mechanische Tastatur, eBay 12.62€
+   - 104 Keycaps PBT Backlit Double-Shot für Mechanical Cherry MX Switch 10 Farben, eBay 9.91€
+- Switches
+  - MX Brown Switches, 10 pcs for 1.59€, eBay, 8 sets (to have some spares): 11.92€
+- Case:
+  - Some cheap wood, tbd
+  - Some screws
+  - Magnets (maybe, we'll see)
+
+Sum: **~ 45 - 50 €**
+
 ## Similar projects
 
 ### Shark PCB
