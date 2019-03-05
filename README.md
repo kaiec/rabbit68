@@ -37,7 +37,7 @@ The PCB uses a Teensy 2.0 as controller. This way the whole PCB is basically jus
   - Some screws
   - Magnets (maybe, we'll see)
 
-Sum: **~ 45 - 50 €**
+Sum: ~ 45 - 50 €
 
 ## Similar projects
 
